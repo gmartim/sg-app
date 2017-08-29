@@ -20,9 +20,7 @@
     "styles": [
       "styles.css",
       "../node_modules/bootstrap/dist/css/bootstrap.min.css",
-      "../node_modules/font-awesome/css/font-awesome.css",
-      "assets/vendor/template/style.sea.css",
-      "assets/vendor/template/custom.css"
+      "../node_modules/font-awesome/css/font-awesome.css"
     ],
     "scripts": [
       "../node_modules/jquery/dist/jquery.min.js",
