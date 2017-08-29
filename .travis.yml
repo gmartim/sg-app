@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - "6"
+
+branches:
+  only:
+    - development
+
+before_script:
+  - npm install -g @angular/cli
+  - npm install
+  - ng version
+
+script:
+  - ng build
+
+after_success:
+  - echo ""
