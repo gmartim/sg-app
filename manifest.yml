@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: sg-app-${random}
+  name: sg-app
+  memory: 64M
+  stack: cflinuxfs2
