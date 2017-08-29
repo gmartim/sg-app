@@ -1,7 +1,6 @@
----
 applications:
-- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
   host: sg-app-dev
   name: sg-app
   memory: 64M
-  stack: cflinuxfs2
+  path: dist
